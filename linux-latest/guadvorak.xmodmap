@@ -1,0 +1,100 @@
+! Caps_Lock -> Control_L
+remove Lock = Caps_Lock
+!remove Control = Control_L
+keysym Caps_Lock = Control_L
+!keysym Control_L = Caps_Lock
+add Control = Control_L
+!add Lock = Caps_Lock
+
+! Alt Gr-key
+!keycode 113 = Mode_switch <-- for older X-servers
+keycode 108 = Mode_switch
+!add mod3 = Mode_switch
+
+! Compose key
+keycode 105 = Multi_key
+
+! z -> Shift_R
+!keysym z = Shift_R <-- doesn't work in every X-server, workarounds...
+keycode 61  = Shift_R
+add Shift = Shift_R
+
+! l <-> g (redefined later...)
+keycode 30 = l L
+keycode 33 = g G
+
+! Finnish "accents" (äöÄÖåÅ)
+keycode 52 = adiaeresis odiaeresis aring
+keycode 38 = a A Adiaeresis
+keycode 39 = o O Odiaeresis
+
+! Finnish keyboard (tilde already somewhere more convenient)
+keycode 49 = section onehalf onequarter threequarters
+
+! Cyrillic http://cstein.kings.cam.ac.uk/~chris/shtools/xmodmap/maps/.xmodmap-cyrillic
+
+!
+! Other relevant mappings
+!
+
+! Letter 1:    1            !                  ¡
+keycode 10 =   1            exclam             exclamdown
+
+! Letter 6:    6            &
+keycode 15 =   6            ampersand
+
+! Letter 7:    7            ˇ                  ^                   ^
+keycode 16 =   7            dead_caron         asciicircum          dead_circumflex
+
+! Letter ,:    '            "                  ~                   ~
+keycode 24 =   apostrophe   quotedbl           asciitilde          dead_tilde
+
+! Letter ,:    ,            <                  (                   '
+keycode 25 =   comma        less               parenleft           dead_acute
+
+! Letter .:    .            >                  )                   `
+keycode 26 =   period       greater            parenright          dead_grave
+
+! Letter p:    p            P                  {                   ┌
+keycode 27 =   p            P                  braceleft           upleftcorner
+
+! Letter y:    y            Y                  }                   ┐
+keycode 28 =   y            Y                  braceright          uprightcorner
+
+! Letter l:    l            L                  λ                   Λ
+keycode 30 =   l            L                  Greek_lambda        Greek_LAMBDA
+
+! Letter c:    c            C                  ç                   Ç
+keycode 31 =   c            C                  ccedilla            Ccedilla
+
+! Letter r:    r            R                  ®
+keycode 32 =   r            R                  registered
+
+! Letter e:    e            E                  /                   °
+keycode 40 =   e            E                  slash               degree
+
+! Letter u:    u            U                  ü                   Ü
+keycode 41 =   u            U                  udiaeresis          Udiaeresis
+
+! Letter i:    i            I                  ?                   ¿
+keycode 42 =   i            I                  question            questiondown
+
+! Letter t:    t            T                  ™                   ©
+keycode 45 =   t            T                  trademark           copyright
+
+! Letter -:    -            _                  —                   …
+keycode 48 =   minus        underscore         emdash              ellipsis
+
+! Letter q:    q            Q                  [                   └
+keycode 53 =   q            Q                  bracketleft         lowleftcorner
+
+! Letter j:    j            J                  ]                   ┘
+keycode 54 =   j            J                  bracketright        lowrightcorner
+
+! Letter x:    x            X                  z                   Z
+keycode 56 =   x            X                  z                   Z
+
+! Letter ;:    ;            :
+keycode 94 =   semicolon    colon              ae                  AE
+
+! oslash, Oslash
