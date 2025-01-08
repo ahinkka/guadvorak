@@ -4,13 +4,12 @@
   <layoutList>
     <layout>
       <configItem>
-        <name>fi(guadvorak)</name>
+        <name>fi</name>
       </configItem>
       <variantList>
-        <variant>
+	<variant>
           <configItem>
-            <name>Finnish (guadvorak)</name>
-            <shortDescription>Personal keyboard layout.</shortDescription>
+            <name>guadvorak</name>
             <description>Finnish (guadvorak)</description>
           </configItem>
         </variant>

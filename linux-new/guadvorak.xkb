@@ -1,0 +1,41 @@
+partial alphanumeric_keys
+xkb_symbols "guadvorak" {
+    name[Group1]= "Finnish (guadvorak)";
+
+    include "us(dvorak)"
+    include "level3(ralt_switch)"
+    include "ctrl(swapcaps)"
+    include "compose(rctrl)"
+
+    key <AE01> {[          1,  exclam, exclamdown     ]};
+    key <AE06> {[          6,  ampersand              ]};
+    key <AE07> {[          7,  grave, dead_circumflex ]};
+
+    key <AD01> {[ apostrophe, quotedbl, asciitilde, dead_tilde ]};
+    key <AD02> {[      comma,  less, parenleft, dead_acute     ]};
+    key <AD03> {[     period, greater, parenright, dead_grave  ]};
+    key <AD04> {[          p,  P, braceleft, guillemotleft     ]};
+    key <AD05> {[          y,  Y, braceright, guillemotright   ]};
+
+    key <AD07> {[          l,  L, Greek_LAMBDA           ]};
+    key <AD08> {[          c,  C, ccedilla,     Ccedilla ]};
+
+    key <AD10> {[          g,  G ]};
+
+    key <AC01> {[          a,  A, adiaeresis, Adiaeresis ]};
+    key <AC02> {[          o,  O, odiaeresis, Odiaeresis ]};
+    key <AC03> {[          e,  E, slash,      eacute     ]};
+    key <AC04> {[          u,  U, udiaeresis, Udiaeresis ]};
+    key <AC05> {[          i,  I, question               ]};
+
+    key <AC11> {[      minus,  underscore, emdash, ellipsis ]};
+
+    key <AB01> {[ adiaeresis, odiaeresis, aring, Aring ]};
+    key <AB02> {[          q,  Q, bracketleft          ]};
+    key <AB03> {[          j,  J, bracketright         ]};
+
+    key <AB05> {[          x,  X, z, Z ]};
+
+    key <AB10> {[    Shift_R        ]};
+    key <LSGT> {[  semicolon, colon ]};
+};
