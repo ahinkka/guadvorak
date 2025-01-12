@@ -17,10 +17,11 @@ xkb_symbols "guadvorak" {
     key <AD04> {[          p,  P,        braceleft,  guillemotleft  ]};
     key <AD05> {[          y,  Y,        braceright, guillemotright ]};
 
-    key <AD07> {[          l,  L, Greek_LAMBDA           ]};
+    key <AD07> {[          l,  L, Greek_lambda, Greek_LAMBDA ]};
     key <AD08> {[          c,  C, ccedilla,     Ccedilla ]};
 
-    key <AD10> {[          g,  G ]};
+    key <AD09> {[          r,  R, registered ]};
+    key <AD10> {[          g,  G             ]};
 
     key <AC01> {[          a,  A, adiaeresis, Adiaeresis   ]};
     key <AC02> {[          o,  O, odiaeresis, Odiaeresis   ]};
@@ -28,11 +29,13 @@ xkb_symbols "guadvorak" {
     key <AC04> {[          u,  U, udiaeresis, Udiaeresis   ]};
     key <AC05> {[          i,  I, question,   questiondown ]};
 
+    key <AC08> {[          t,  T, trademark, copyright ]};
+
     key <AC11> {[      minus,  underscore, emdash, ellipsis ]};
 
     key <AB01> {[ adiaeresis,  odiaeresis, aring, Aring ]};
     key <AB02> {[          q,  Q,          bracketleft  ]};
     key <AB03> {[          j,  J,          bracketright ]};
 
-    key <LSGT> {[  semicolon, colon ]};
+    key <LSGT> {[  semicolon, colon, ae, AE ]};
 };
