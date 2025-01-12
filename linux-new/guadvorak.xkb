@@ -22,11 +22,11 @@ xkb_symbols "guadvorak" {
 
     key <AD10> {[          g,  G ]};
 
-    key <AC01> {[          a,  A, adiaeresis, Adiaeresis ]};
-    key <AC02> {[          o,  O, odiaeresis, Odiaeresis ]};
-    key <AC03> {[          e,  E, slash,      eacute     ]};
-    key <AC04> {[          u,  U, udiaeresis, Udiaeresis ]};
-    key <AC05> {[          i,  I, question               ]};
+    key <AC01> {[          a,  A, adiaeresis, Adiaeresis   ]};
+    key <AC02> {[          o,  O, odiaeresis, Odiaeresis   ]};
+    key <AC03> {[          e,  E, slash,      eacute       ]};
+    key <AC04> {[          u,  U, udiaeresis, Udiaeresis   ]};
+    key <AC05> {[          i,  I, question,   questiondown ]};
 
     key <AC11> {[      minus,  underscore, emdash, ellipsis ]};
 
