@@ -34,8 +34,5 @@ xkb_symbols "guadvorak" {
     key <AB02> {[          q,  Q, bracketleft          ]};
     key <AB03> {[          j,  J, bracketright         ]};
 
-    key <AB05> {[          x,  X, z, Z ]};
-
-    key <AB10> {[    Shift_R        ]};
     key <LSGT> {[  semicolon, colon ]};
 };
