@@ -11,11 +11,11 @@ xkb_symbols "guadvorak" {
     key <AE06> {[          6,  ampersand              ]};
     key <AE07> {[          7,  grave, dead_circumflex ]};
 
-    key <AD01> {[ apostrophe, quotedbl, asciitilde, dead_tilde ]};
-    key <AD02> {[      comma,  less, parenleft, dead_acute     ]};
-    key <AD03> {[     period, greater, parenright, dead_grave  ]};
-    key <AD04> {[          p,  P, braceleft, guillemotleft     ]};
-    key <AD05> {[          y,  Y, braceright, guillemotright   ]};
+    key <AD01> {[ apostrophe,  quotedbl, asciitilde, dead_tilde     ]};
+    key <AD02> {[      comma,  less,     parenleft,  dead_acute     ]};
+    key <AD03> {[     period,  greater,  parenright, dead_grave     ]};
+    key <AD04> {[          p,  P,        braceleft,  guillemotleft  ]};
+    key <AD05> {[          y,  Y,        braceright, guillemotright ]};
 
     key <AD07> {[          l,  L, Greek_LAMBDA           ]};
     key <AD08> {[          c,  C, ccedilla,     Ccedilla ]};
@@ -30,9 +30,9 @@ xkb_symbols "guadvorak" {
 
     key <AC11> {[      minus,  underscore, emdash, ellipsis ]};
 
-    key <AB01> {[ adiaeresis, odiaeresis, aring, Aring ]};
-    key <AB02> {[          q,  Q, bracketleft          ]};
-    key <AB03> {[          j,  J, bracketright         ]};
+    key <AB01> {[ adiaeresis,  odiaeresis, aring, Aring ]};
+    key <AB02> {[          q,  Q,          bracketleft  ]};
+    key <AB03> {[          j,  J,          bracketright ]};
 
     key <LSGT> {[  semicolon, colon ]};
 };
