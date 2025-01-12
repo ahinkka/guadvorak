@@ -7,10 +7,13 @@ xkb_symbols "guadvorak" {
     include "ctrl(swapcaps)"
     include "compose(rctrl)"
 
-    key <AE01> {[          1,  exclam,    exclamdown      ]};
-    key <AE05> {[          5,  percent,   permille        ]};
-    key <AE06> {[          6,  ampersand, dead_circumflex ]};
-    key <AE07> {[          7,  slash,     dead_caron      ]};
+    key <TLDE> {[    section,  onehalf, dead_stroke, NoSymbol ]};
+
+    key <AE01> {[          1,  exclam,    exclamdown                ]};
+    key <AE04> {[          4,  dollar,    EuroSign,        sterling ]};
+    key <AE05> {[          5,  percent,   permille                  ]};
+    key <AE06> {[          6,  ampersand, dead_circumflex           ]};
+    key <AE07> {[          7,  slash,     dead_caron                ]};
 
     key <AD01> {[ apostrophe,  quotedbl, asciitilde, dead_tilde     ]};
     key <AD02> {[      comma,  less,     parenleft,  dead_acute     ]};
