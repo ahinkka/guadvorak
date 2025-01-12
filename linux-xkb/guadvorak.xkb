@@ -7,9 +7,9 @@ xkb_symbols "guadvorak" {
     include "ctrl(swapcaps)"
     include "compose(rctrl)"
 
-    key <AE01> {[          1,  exclam, exclamdown     ]};
-    key <AE06> {[          6,  ampersand              ]};
-    key <AE07> {[          7,  grave, dead_circumflex ]};
+    key <AE01> {[          1,  exclam,    exclamdown     ]};
+    key <AE06> {[          6,  ampersand, dead_circumflex ]};
+    key <AE07> {[          7,  slash,     dead_caron      ]};
 
     key <AD01> {[ apostrophe,  quotedbl, asciitilde, dead_tilde     ]};
     key <AD02> {[      comma,  less,     parenleft,  dead_acute     ]};
