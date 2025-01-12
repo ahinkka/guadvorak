@@ -35,11 +35,11 @@ keycode 49 = section onehalf onequarter threequarters
 ! Letter 1:    1            !                  ¡
 keycode 10 =   1            exclam             exclamdown
 
-! Letter 6:    6            &
-keycode 15 =   6            ampersand
+! Letter 6:    6            &                  ^
+keycode 15 =   6            ampersand          dead_circumflex
 
-! Letter 7:    7            ˇ                  ^                   ^
-keycode 16 =   7            dead_caron         asciicircum          dead_circumflex
+! Letter 7:    7            /                  ˇ
+keycode 16 =   7            slash              dead_caron
 
 ! Letter ,:    '            "                  ~                   ~
 keycode 24 =   apostrophe   quotedbl           asciitilde          dead_tilde
