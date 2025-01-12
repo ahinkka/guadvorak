@@ -14,11 +14,6 @@ keycode 108 = Mode_switch
 ! Compose key
 keycode 105 = Multi_key
 
-! z -> Shift_R
-!keysym z = Shift_R <-- doesn't work in every X-server, workarounds...
-keycode 61  = Shift_R
-add Shift = Shift_R
-
 ! l <-> g (redefined later...)
 keycode 30 = l L
 keycode 33 = g G
@@ -90,9 +85,6 @@ keycode 53 =   q            Q                  bracketleft         lowleftcorner
 
 ! Letter j:    j            J                  ]                   ┘
 keycode 54 =   j            J                  bracketright        lowrightcorner
-
-! Letter x:    x            X                  z                   Z
-keycode 56 =   x            X                  z                   Z
 
 ! Letter ;:    ;            :
 keycode 94 =   semicolon    colon              ae                  AE
