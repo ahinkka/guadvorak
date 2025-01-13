@@ -40,6 +40,8 @@ xkb_symbols "guadvorak" {
     key <AB01> {[ adiaeresis,  odiaeresis, aring, Aring ]};
     key <AB02> {[          q,  Q,          bracketleft  ]};
     key <AB03> {[          j,  J,          bracketright ]};
+    key <AB04> {[          k,  K,          leftarrow    ]};
+    key <AB05> {[          x,  X,          rightarrow   ]};
 
     key <LSGT> {[  semicolon, colon, ae, AE ]};
 };
